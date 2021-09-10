@@ -24,7 +24,7 @@ public class PersonController {
 		this.personRepository = personRepository;
 	}
 
-	@PostMapping
+	/*@PostMapping
 	public MessageResponseDTO createPerson (@RequestBody Person person) {
 		Person savedPerson = personRepository.save(person);
 		return MessageResponseDTO
@@ -32,5 +32,5 @@ public class PersonController {
 				.message("Created person with ID " + savedPerson.getId())
 				.build();
 		
-	}
+	}*/
 }
